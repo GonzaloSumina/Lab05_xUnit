@@ -1,0 +1,21 @@
+        -:    0:Source:src/BubbleSort.cpp
+        -:    0:Graph:BubbleSortTest-BubbleSort.gcno
+        -:    0:Data:BubbleSortTest-BubbleSort.gcda
+        -:    0:Runs:1
+        -:    1:#include "BubbleSort.h"
+        -:    2:
+        4:    3:void bubbleSort(std::vector<int>& vet) {
+        -:    4:
+        9:    5:    for (int i = vet.size(); i >= 2; i--) {
+        -:    6:
+       12:    7:        for (int j = 0; j <= i - 2; j++) {
+        -:    8:
+        7:    9:            if (vet[j] > vet[j + 1]) {
+        -:   10:
+        3:   11:                int aux = vet[j];
+        3:   12:                vet[j] = vet[j + 1];
+        3:   13:                vet[j + 1] = aux;
+        -:   14:            }
+        -:   15:        }
+        -:   16:    }
+        4:   17:}

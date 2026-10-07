@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" disabled="0" errors="0" time="0.009" timestamp="2026-10-06T23:11:25.178" name="AllTests">
+  <testsuite name="BubbleSortTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.006" timestamp="2026-10-06T23:11:25.180">
+    <testcase name="ArregloUnElemento" file="tests/BubbleSortTest.cpp" line="4" status="run" result="completed" time="0." timestamp="2026-10-06T23:11:25.181" classname="BubbleSortTest" />
+    <testcase name="ArregloYaOrdenado" file="tests/BubbleSortTest.cpp" line="17" status="run" result="completed" time="0." timestamp="2026-10-06T23:11:25.182" classname="BubbleSortTest" />
+    <testcase name="NoNecesitaIntercambio" file="tests/BubbleSortTest.cpp" line="30" status="run" result="completed" time="0." timestamp="2026-10-06T23:11:25.183" classname="BubbleSortTest" />
+    <testcase name="NecesitaIntercambio" file="tests/BubbleSortTest.cpp" line="43" status="run" result="completed" time="0." timestamp="2026-10-06T23:11:25.185" classname="BubbleSortTest" />
+  </testsuite>
+</testsuites>
